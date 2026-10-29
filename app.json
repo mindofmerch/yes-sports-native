@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Y.E.S. Sports",
+    "slug": "yes-sports-native",
+    "scheme": "yessports",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.yessports.native" },
+    "android": { "package": "com.yessports.native", "edgeToEdgeEnabled": true },
+    "experiments": { "typedRoutes": true },
+    "plugins": ["expo-router"]
+  }
+}
