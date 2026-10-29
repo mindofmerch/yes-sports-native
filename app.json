@@ -7,9 +7,10 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.yessports.native" },
-    "android": { "package": "com.yessports.native", "edgeToEdgeEnabled": true },
-    "experiments": { "typedRoutes": true },
+    "ios": {"supportsTablet": true, "bundleIdentifier": "com.yessports.native"},
+    "android": {"package": "com.yessports.native", "edgeToEdgeEnabled": true},
+    "web": {"output": "static"},
+    "experiments": {"typedRoutes": true},
     "plugins": ["expo-router"]
   }
 }
